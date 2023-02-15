@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+
+#h1 {
+    font-size: 36px;
+    text-shadow: 10px 10px 10px rgb(195, 124, 61);
+   
+  }
+
+#body
+{
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+ #label
+{
+  display: block;
+  text-shadow: 5px 5px 10px rgb(195, 124, 61);
+  padding: 10px;
+  font-size: 26px;
+  color: black;
+}
+ #input
+  {
+    width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  #inpu
+  {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(195, 124, 61);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  #input:hover
+  {
+    background-color: rgb(218, 165, 79);
+  }
+  #aa
+  {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(195, 124, 61);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #form
+  {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+   margin-top: 10%;
+   margin-right: 60%;
+  }

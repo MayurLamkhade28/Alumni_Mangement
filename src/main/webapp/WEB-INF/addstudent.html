@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/add.css">
+</head>
+<style>
+body {
+	background-image: url("images (1).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+</style>
+<body id="body">
+  <center>
+  <div id="container">
+    <form  action="Add_Controller" method="get">
+      <h2 id="h1"> Alumni Information Form</h2>
+      
+        <label id="label" >Register No:</label>
+        <input  type="number" placeholder="ENTER REGISTER NO" id="form-group" name="rollno" required>
+      
+        <label id="label" >Name:</label>
+        <input type="text" placeholder="ENTER NAME" id="form-group" name="name" required>
+      
+        <label id="label" >Email:</label>
+        <input type="email" placeholder="ENTER EMAIL"id="form-group" name="email" required>
+      
+        <label id="label" >Phone Number:</label>
+        <input type="number" placeholder="ENTER PHONE NO" id="form-group" name="mob" required>
+      
+        <label id="label" >Aadhar No:</label>
+        <input type="number" placeholder="ENTER AADHAR NO" id="form-group" name="adh" required>
+      
+        <label id="label" >Stream:</label>
+        <input type="text" placeholder="ENTER STREAM" id="form-group" name="str" required>
+      
+        <label id="label" >Course:</label>
+        <input type="text" placeholder="ENTER COURSE" id="form-group" name="cour" required>
+     
+        <label id="label" >Joining Year:</label>
+        <input type="date" placeholder="ENTER JOINING YEAR" id="form-group" name="join" required>
+      
+        <label id="label" >Pass Out Year:</label>
+        <input type="date" placeholder="ENTER PASSOUT YEAR" id="form-group" name="pass" required>
+    
+        <label id="label" >Profession:</label>
+        <input type="text" placeholder="ENTER PROFESSION" id="form-group" name="pro" required>
+     
+        <label id="label">Gender:</label>
+        <input id="aa"type="radio"  name="gen" value="male" required>
+        <label id="la" >Male</label>
+        <input id="aa" type="radio"  name="gen" value="female" required>
+        <label id="la" >Female</label>
+        <input id="aa" type="radio"  name="gen" value="other" required>
+        <label id="la" >Other</label><br><br>
+    
+      <button type="submit" id="sub">Submit</button>
+    </form>
+  </div>
+</center>
+</body>

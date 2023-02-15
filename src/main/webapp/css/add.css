@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+#container
+{
+  margin-top: auto;
+  max-width: 600px;
+  margin-right: 250px;
+  border-color: rgb(215, 194, 194);
+  border: 2px;
+  box-shadow: 6px 6px 20px 10px rgb(235, 13, 13);
+  background-color: rgb(192, 209, 211);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+#h1
+{
+  font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(62, 58, 58, 0.849);
+   color: rgb(6, 6, 6);
+}
+#label
+{
+  margin-right: 250px;
+  display: block;
+  text-shadow: 5px 5px 10px rgb(17, 17, 16);
+  padding: 5px;
+  font-size: 26px;
+  color: rgb(0, 0, 0);
+}
+#form-group
+{
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  margin-right: 50px;
+  background-color: rgba(227, 138, 28, 0.845);
+  box-shadow: 4px 4px 6px rgba(12, 13, 11, 0.947);
+
+}
+#la
+{
+  color: rgba(216, 50, 50, 0.905);
+
+}
+#aa
+{
+  color: rgb(238, 89, 9);
+}
+#sub
+{
+  width: 50%;
+  padding: 10px;
+  background-color: rgb(44, 72, 211);
+  box-shadow: 4px 4px 6px rgba(232, 11, 11, 0.867);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
